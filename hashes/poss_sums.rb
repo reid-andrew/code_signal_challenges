@@ -15,14 +15,3 @@ coins = [10, 50, 100]
 quantity = [1, 2, 1]
 
 possibleSums(coins, quantity)
-
-# def possibleSums(coins, quantity)
-#   sums = Hash.new(0)
-#   coins.each_with_index do |coin, index|
-#     quantity[index].times do
-#       sums.keys.each { |key| sums[key+coin] += 1 }
-#       sums[coin] += 1
-#     end
-#   end
-#   print sums.keys.size
-# end
